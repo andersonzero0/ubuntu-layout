@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/resposive.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body onload="efectImgHitNumber1()">
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <!--HEADER - START-->
+        <header class="headerMain">
+
+            <div class="data">
+                <p id="content_data"></p>
+            </div>
+
+            <div class="logo">
+                <p>andersonzero0</p>
+            </div>
+            
+        </header>
+        <!--HEADER - END-->
+
+        <!--<div id="btn_apps" class="btn_apps">
+            <p>Apps</p>
+            <span id="span_apps" class="material-symbols-outlined">
+                expand_less
+            </span>
+        </div>-->
+        
+        <!--NAVBAR - START-->
+        <nav id="navbar" class="navbar">
+
+            <a id="btn_openProfile" style="cursor: pointer;">
+                <div class="btn_redesSociais">
+                    <img class="img_redS_Profile" src="https://avatars.githubusercontent.com/u/92057959" alt="">
+                </div>
+                <div>
+                    <p>Sobre mim</p>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/andersonzero0/" target="_blank">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/linkedin.png" alt="">
+                </div>
+                <div>
+                    <p>Linkedin</p>
+                </div>
+            </a>
+
+            <a style="cursor: pointer;" id="btn_openProjetos">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/blueprint.png" alt="">
+                </div>
+                <div>
+                    <p>Projetos</p>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/dev_andersonviana/" target="_blank">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/instagram.png" alt="">
+                </div>
+                <div>
+                    <p>Instagram</p>
+                </div>
+            </a>
+
+            <a href="https://github.com/andersonzero0" target="_blank">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/placa-do-github.png" alt="">
+                </div>
+                <div>
+                    <p>GitHub</p>
+                </div>
+            </a>
+
+            <a href="https://twitter.com/andersonn_dev" target="_blank">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/twitter.png" alt="">
+                </div>
+                <div>
+                    <p>Twitter</p>
+                </div>
+            </a>
+
+            <a href="mailto:anderson11viana@gmail.com" target="_blank">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/gmail.png" alt="">
+                </div>
+                <div>
+                    <p>Email</p>
+                </div>
+            </a>
+
+            <a id="btn_openTerminal" style="cursor: pointer;">
+                <div class="btn_redesSociais">
+                    <img class="img_redS" src="assets/images/terminal.png" alt="">
+                </div>
+                <div>
+                    <p>Terminal</p>
+                </div>
+            </a>
+            
+        </nav>
+        <!--NAVBAR - END-->
+
+        <!--PORTIFOLIO - START-->
+        <div id="profile" class="conteiner_portifolio">
+
+            <div class="header_portifolio">
+                <div class="text_portifolio">
+                    <p>Sobre mim</p>
+                </div>
+
+                <div class="opt_portifolio">
+                    <span id="btn_maxViewPort" class="material-symbols-outlined">
+                        check_box_outline_blank
+                    </span>
+
+                    <span id="btn_exitViewPort" class="material-symbols-outlined">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="painel_portifolio">
+                <section class="section_Portifolio">
+                    <div class="content_ImgPort">
+                        <img src="https://avatars.githubusercontent.com/u/92057959" alt="">
+                        <h1 class="text_port">Anderson Viana</h1>
+                    </div>
+
+                    <div class="overflow">
+
+                        <p class="text_port"><strong>- Objetivo:</strong> Em busca de uma oportunidade de estágio/emprego, para aprimorar meus conhecimentos e habilidades, visando sempre o crescimento entre a empresa e eu.</p>
+
+                        <p class="text_port"><strong>- Qualificação:</strong>
+                            <ul class="cont_skillsPort">
+                                <li>Estudo Intermediário em Front-end;</li>
+                                <li>Estudo Intermediário em Back-end.</li>
+                            </ul>
+                        </p>
+
+                        <p class="text_port"><strong>- Habilidades:</strong>
+                            <ul class="cont_skillsPort">
+                                <li>Noções sobre comunicação;</li>
+                                <li>Noções sobre trabalho em equipe;</li>
+                                <li>Facilidade em aprender;</li>
+                                <li>Disponibilidade de horário.</li>
+                            </ul>
+                        </p>
+
+                    </div>
+                </section>
+            </div>
+            
+        </div>
+        <!--PORTIFOLIO - END-->
+
+        <!--PROJETOS - START-->
+        <div id="projetos" class="conteiner_projetos">
+
+            <div class="header_portifolio">
+                <div class="text_portifolio">
+                    <p>Projetos</p>
+                </div>
+
+                <div class="opt_portifolio">
+                    <span id="btn_maxViewProj" class="material-symbols-outlined">
+                        check_box_outline_blank
+                    </span>
+
+                    <span id="btn_exitViewProj" class="material-symbols-outlined">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="projetos_painel">
+
+                <div class="navbar_proj">
+                    <a href="#content_hitnumber">HitNumber<a>
+
+                    <a href="#content_pizzaria">Pizzaria<a>
+                
+                    <!--<a href="#content_fashionStyle">Fashion Style</a>-->
+                </div>
+
+                <!--HITNUMBER - START-->
+                <div id="content_hitnumber" class="blocos_proj">
+                    <h1 class="HN_h1">HitNumber</h1>
+                    <p class="HN_p">Jogo de adivinhar qual número foi sorteado, mas só há 5 tentativas. Existem 3 niveis: Nivel 1; Nivel 2; Nivel 3.</p>
+
+                    <div class="hitnumber_div">
+                        <div class="div_imgHN"><img id="img_HitNumber" src="" alt=""></div>
+                        <div><a href="https://andersonzero0.github.io/hitnumber/" target="_blank" class="start_hn">START</a></div>
+                    </div>
+                </div>
+                <!--HITNUMBER - END-->
+
+                <!--PIZZARIA - START-->
+                <div id="content_pizzaria" class="blocos_proj">
+                    <div class="header_pizz">
+                        <img src="https://andersonzero0.github.io/pizzaria/assets/images/icon_pizza.png" alt="">
+                        <h1 class="PIZ_h1">PIZZARIA</h1>
+                    </div>
+                    <a href="https://andersonzero0.github.io/pizzaria/" target="_blank" id="link_visitPizzaria" class="link_visitPizzaria">Visite o Site -></a>
+                    <a href="https://andersonzero0.github.io/pizzaria/" target="_blank">
+                        <div class="div_fundoPizz">
+                            <img class="fundo_pizzaria" src="assets/images/fundo_pizzaria.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <!--PIZZARIA - END-->
+
+                <div style="display: none;" id="content_fashionStyle" class="blocos_proj">
+
+                </div>
+            </div>
+        </div>
+        <!--PROJETOS - END-->
+
+        <!--TERMINAL - START-->
+        <div id="terminal" class="conteiner_terminal">
+
+            <div class="header_terminal">
+                <div class="text_terminal">
+                    <p>Terminal</p>
+                </div>
+
+                <div class="opt_terminal">
+
+                    <span id="btn_maxView" class="material-symbols-outlined">
+                        check_box_outline_blank
+                    </span>
+
+                    <span id="btn_exitView" class="material-symbols-outlined">
+                        close
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="painel_terminal">
+
+                <div class="entrada_terminal">
+                    <p>root@andersonzero0:~#<input id="inputEntrada" class="input_entradaTerminal" type="text" size="25" maxlength="25"></p>
+                </div>
+
+                <div class="saida terminal">
+
+                </div>
+                
+            </div>
+
+        </div>
+        <!--TERMINAL - END-->
+        
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
+
+<script src="assets/js/main.js"></script>

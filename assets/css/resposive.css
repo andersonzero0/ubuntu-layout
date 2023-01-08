@@ -1,0 +1,109 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteiner_portifolio {
+        width: 720px;
+        height: 700px;
+    }
+
+    .conteiner_projetos {
+        width: 720px;
+    }
+
+    .content_ImgPort {
+        font-size: 24px;
+    }
+
+    .content_ImgPort > img {
+        width: 120px;
+    }
+
+    .overflow > p {
+        font-size: 20px;
+    }
+
+    .conteiner_terminal {
+        width: 720px;
+        margin-top: 10px;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-position: -800px -80px;
+        background-size: 1800px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .conteiner_portifolio {
+        width: 300px;
+        height: 530px;
+        margin-top: 10px;
+    }
+
+    .conteiner_projetos {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    #img_HitNumber {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .div_imgHN {
+        margin-right: 10px;
+    }
+
+    .fundo_pizzaria {
+        width: 300px;
+    }
+
+    .link_visitPizzaria {
+        left: 22%;
+    }
+
+    .conteiner_terminal {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .entrada_terminal > p {
+        font-size: 10px;
+    }
+
+    .input_entradaTerminal {
+        font-size: 9px;
+    }
+
+    body {
+        background-repeat: no-repeat;
+        background-position: -950px -180px;
+        background-size: 1550px;
+    }
+
+    .data {
+        font-size: 10px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .navbar_proj > a {
+        font-size: 10px;
+    }
+
+    .navbar {
+        padding-top: 15px;
+        width: 45px;
+    }
+
+    .img_redS, .img_redS_Profile {
+        width: 30px;
+    }
+
+    .navbar > a > div > p {
+        font-size: 8px;
+    }
+}
